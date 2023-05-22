@@ -289,6 +289,7 @@ h1 {
 
 .list {
   color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   list-style-type: decimal;
 }
 
@@ -341,6 +342,7 @@ h1 {
 }
 
 .div-block-4 {
+  left: 50%;
   max-width: 50%;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
