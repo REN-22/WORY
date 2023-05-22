@@ -338,7 +338,26 @@
 
 .body-3 {
   background-color: #403e3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.square {
+  width: 854px;
+  height: 480px;
+  border: 6px solid red;
+  background-color: #403e3e;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square p {
+  text-align: center;
+}
+
 
 .paragraph-2 {
   color: #fff;
@@ -402,6 +421,20 @@
   bottom: 0%;
   background-color: #667207;
 }
+
+.button-menu {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translateX(-50%);
+  background-color: #667207;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
 
 .button-2 {
   position: absolute;
@@ -508,4 +541,5 @@
   .nav-button-wrapper {
     width: auto;
   }
+
 }
