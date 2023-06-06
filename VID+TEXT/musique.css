@@ -1,10 +1,6 @@
-* {
-  background-image: url("/VID+TEXT/fd-musique.jpg");
+body {
+  background: url("/VID+TEXT/fd-musique4.jpg");
   background-size: cover;
-}
-
-body{
-  
 }
 
 a {
@@ -13,9 +9,17 @@ a {
   color: cornflowerblue;
 }
 
+img {
+  height: 400px;
+}
+
 h1 {
   color: white;
   text-align: center;
+}
+
+audio {
+  width: 100%;
 }
 
 .musique{
