@@ -1,4 +1,28 @@
 * {
-  background-image: none;
+  background-image: url("/VID+TEXT/fd-musique.jpg");
+  background-size: cover;
+}
+
+body{
+  
+}
+
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.musique{
+  display: flex;
+  height: 95vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
 }
 
